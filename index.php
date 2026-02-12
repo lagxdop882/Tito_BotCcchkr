@@ -1,12 +1,12 @@
 <?php
 #BOT CREADO POR  Andresitoww
-$botToken = '5359484704:AAH-jUHJcjoCp05qrV5RuwEL1Is35V3KU9g'; #AGREGAMOS EL TOKEN DEL BOT Aqui Ponemos El 
+$botToken = '7961200564:AAHx0T0k_dx_DkKKJjnDoG0jESXFb_OHfOo'; #AGREGAMOS EL TOKEN DEL BOT Aqui Ponemos El 
 $website  = "https://api.telegram.org/bot".$botToken;
 $update   = file_get_contents('php://input');
 $update   = json_decode($update, true);
 $e        = print_r($update); //
 #EMPIEZA LA CAPTURA DE VARIABLES ENVIADOS AL CHAT
-$My_ID           = "1887258668";
+$My_ID           = "8597415233";
 $chatname        = $update["message"]["chat"]["title"]; 
 $newusername     = $update["message"]["new_chat_member"]["username"];
 $newgId          = $update["message"]["new_chat_member"]["id"];
@@ -429,6 +429,7 @@ sendMessage($chatId, "<b><i>[⚠️]Hello How are you bro🤙🏻 <a href='tg://
 ✳️You are well? you are not in my db convert premium user</i>
 - Owner: <a href='tg://user?id=1889292794'>Antonio</a></b>",$message_id);
 }}
+
 
 
 ?>
